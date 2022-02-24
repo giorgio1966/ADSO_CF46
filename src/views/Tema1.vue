@@ -2,13 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    //- Muestras
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -20,7 +13,7 @@
         .row
           .col-12.bgBlanco.Neg-Der50.p-2
             .cajon.mb-4
-              span.mb-0.text-small La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de software es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
+              span.mb-0 La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de software es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
     .titulo-segundo.color-acento-botones
       #manTec.h2 1.1 Manuales Técnicos
     .bloque-texto-b.color-acento-botones.p-2
@@ -134,7 +127,7 @@
         img(src='@/assets/curso/tema1/imagen1.jpg')
       .col-7
         .row.mb-2.bgPrimario
-          .col-12
+          .col-12.p-4
             p.mb-0.text-small El manual de usuario es el documento que facilita a las personas utilizar un software de manera sencilla y clara, además de brindar acceso a todas las funcionalidades que este posee. La documentación técnica es muy importante en el ciclo de vida de los sistemas de información, además de ser un entregable obligatorio de parte de los programadores. 
         .row.mb-2.bgAcentoBotones
           .col-12
@@ -350,7 +343,7 @@
             p En algunos software se publica una guía de "Inicio rápido" independiente, además se explica cómo identificar e interpretar cualquier sistema o códigos de hardware y números de serie que vienen con el producto.
             p Se deben incluir gráficos del paso a paso de cómo instalar el software, también se muestra las conexiones de cableado correctas, si las hay. Si se trata de alguna instalación física.
             p Si se realiza todas las sugerencias en este manual se fomentará la lealtad del cliente, generar altos niveles de satisfacción y minimizar las llamadas al departamento de atención al cliente.
-
+    separador
 </template>
 
 <script>
